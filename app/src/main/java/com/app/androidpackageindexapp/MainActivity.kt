@@ -235,10 +235,11 @@ fun ApiItemCard(item: ApiItem) {
                     )
                     Text(
                         text = item.explanation,
+                        color = Color.Blue,
                         style = MaterialTheme.typography.body2
                     )
                     Text(
-                        text = item.type,
+                        text = "カテゴリ : " + item.type,
                         style = MaterialTheme.typography.caption
                     )
                 }
